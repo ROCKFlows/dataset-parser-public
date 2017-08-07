@@ -17,7 +17,8 @@ This code uses the **JavaMi** library developed by Adam Pocock and available thr
 ## Example input and output
 
 You can find an example dataset and task files in the [example] folder.
-To try the program, use `java -jar extractor.jar example/iris/iris-task.json example/iris/iris.csv`
-The result will be save in the file [example/output.json]
 
-You can also provide HTTP urls to datasets: `java -jar extractor.jar example/hepatitis/hepatitis-task.json http://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/hepatitis.data`
+* To try the program, use `java -jar extractor.jar example/iris/iris-task.json example/iris/iris.csv`.
+The result will be saved in the file [example/iris/output.json]
+
+* You can also provide HTTP urls to datasets: `java -jar extractor.jar example/hepatitis/hepatitis-task.json http://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/hepatitis.data`.
