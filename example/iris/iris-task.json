@@ -1,0 +1,15 @@
+{
+  "dataset": {
+    "format": "CSV_WITH_HEADER"
+  },
+  "task": [
+    {
+      "id": "TASK_TYPE",
+      "value": "CLASSIFICATION"
+    },
+    {
+      "id": "CLASS_INDEX",
+      "value": "4"
+    }
+  ]
+}
