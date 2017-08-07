@@ -4,9 +4,9 @@ This jar allows to extract the features of a given dataset in CSV of ARFF format
 
 ## Usage
 
-Instructions: `java -jar parser-tools/target/extractor.jar -'`
+Instructions: `java -jar extractor.jar -h`
 
-Run: `java -jar parser-tools/target/extractor.jar {path_to_task} {path_to_data} [output_path]`
+Run: `java -jar extractor.jar {path_to_task} {path_to_data} [output_path]`
 * path\_to\_task (mandatory) is the path to a json file containing the description of the task.
 * path\_to\_data (mandatory) is the path or url to the dataset you want to extract information about.
 * output_path (optional) is the path where to save the result. By default it is saved in a file output.json in the same folder as task.json.";
